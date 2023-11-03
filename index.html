@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- 외부 CSS 파일을 로드 -->
+    <title>To-Do List & 회원가입</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <!-- To-Do List 섹션 -->
+    <div class="todo-container"> <!-- To-Do List 섹션을 감싸는 컨테이너 -->
+        <input type="text" id="todo-input" placeholder="일정을 추가하세요"> <!-- To-Do 아이템을 입력할 수 있는 입력 필드 -->
+        <button id="add-todo-button">추가</button> <!-- To-Do 아이템 추가 버튼 -->
+    </div>
+    <ul id="todo-list"></ul> <!-- To-Do 아이템을 나열하는 목록 요소 -->
+
+    <h1>회원가입</h1>
+
+    <!-- 회원가입 섹션 -->
+    <div class="signup-container"> <!-- 회원가입 섹션을 감싸는 컨테이너 -->
+        <input type="text" id="username" placeholder="아이디"> <!-- 아이디 입력 필드 -->
+        <input type="password" id="password" placeholder="비밀번호"> <!-- 비밀번호 입력 필드 -->
+        <button id="signup-button">가입</button> <!-- 회원가입 버튼 -->
+    </div>
+
+    <script src="script.js"></script> <!-- To-Do List 관련 JavaScript 파일 로드 -->
+    <script src="signup.js"></script> <!-- 회원가입 관련 JavaScript 파일 로드 -->
+</body>
+</html>

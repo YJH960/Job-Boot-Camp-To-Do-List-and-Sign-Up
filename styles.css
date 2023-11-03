@@ -1,0 +1,69 @@
+/* 기본 페이지 스타일 설정 */
+body {
+    font-family: Arial, sans-serif; /* 페이지 전체의 글꼴을 Arial 및 sans-serif 폰트 스택으로 설정 */
+    text-align: center; /* 페이지 내의 텍스트를 가운데 정렬합니다. */
+    background-color: #f0e4e4; /* 페이지 배경색을 연한 회색으로 설정 */
+    margin: 0; /* 페이지 바깥 여백을 제거. */
+    padding: 0; /* 페이지 내부 여백을 제거. */
+}
+
+/* 페이지 제목 스타일 설정 */
+h1 {
+    color: #313131; /* h1 제목의 텍스트 색상을 회색으로 설정 */
+}
+
+/* 컨테이너 스타일 설정 */
+.container {
+    display: flex; /* 컨테이너를 플렉스 박스로 표시하여 내부 요소를 세로로 배치. */
+    flex-direction: column; /* 플렉스 컨테이너의 주 축 방향을 세로로 설정하여 요소를 위에서 아래로 쌓도록 설정. */
+    background-color: #ffffff; /* 컨테이너의 배경색을 흰색으로 설정 */
+    padding: 20px; /* 내부 여백을 20px로 설정하여 내용물 주위에 공간을 추가. */
+    margin: 20px auto; /* 컨테이너를 수평 가운데 정렬하고 좌우 여백은 자동으로 설정. */
+    border-radius: 10px; /* 컨테이너의 모서리를 10px로 둥글게 설정. */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 그림자 효과를 추가하여 컨테이너를 부각. */
+}
+
+/* 입력 필드 스타일 설정 */
+input[type="text"],
+input[type="password"] {
+    padding: 10px; /* 입력 필드 내부의 여백을 10px로 설정 */
+    margin: 10px 0; /* 입력 필드 위아래에 10px의 여백을 추가하여 레이아웃 조절. */
+    border: 1px solid #ccc; /* 입력 필드 주위에 1px 두께의 회색 테두리를 추가. */
+    border-radius: 5px; /* 입력 필드의 모서리를 5px로 둥글게 조절. */
+    font-size: 16px; /* 글꼴 크기를 16px로 설정. */
+}
+
+/* 버튼 스타일 설정 */
+button {
+    padding: 10px 20px; /* 버튼 내부의 여백을 추가하여 버튼이 사용자에게 눌린 느낌 부여. */
+    background-color: #007BFF; /* 버튼의 배경색을 파란색으로 설정. */
+    color: #fff; /* 버튼 텍스트 색상을 흰색으로 설정. */
+    border: none; /* 버튼 주위의 테두리를 제거. */
+    border-radius: 5px; /* 버튼의 모서리를 5px로 둥글게 조절. */
+    font-size: 16px; /* 버튼의 글꼴 크기를 16px로 설정. */
+    cursor: pointer; /* 마우스 커서를 "pointer"로 설정하여 버튼이 클릭 가능한 요소임을 시각적으로 구현. */
+    transition: background-color 0.2s; /* 버튼의 배경색이 변경될 때 0.2초 동안 부드럽게 애니메이션 효과를 적용. */
+}
+
+/* 버튼 호버 상태 스타일 설정 */
+button:hover {
+    background-color: #627284; /* 마우스 호버 시 버튼의 배경색을 회색으로 변경. */
+}
+
+/* 목록 스타일 설정 */
+ul {
+    list-style: none; /* 목록 항목의 불릿 스타일을 제거하여 목록을 깔끔하게 표시. */
+    padding: 0; /* 목록 주위의 여백 제거. */
+}
+
+/* 목록 항목 스타일 설정 */
+li {
+    background-color: #fff; /* 목록 항목의 배경색을 흰색으로 설정. */
+    border: 1px solid #ccc; /* 목록 항목 주위에 1px 두께의 회색 테두리를 추가. */
+    border-radius: 5px; /* 목록 항목의 모서리를 5px로 둥글게 조절. */
+    padding: 10px; /* 목록 항목 내부의 여백을 추가. */
+    margin: 10px 0; /* 목록 항목 위아래에 10px의 여백을 추가하여 레이아웃을 조절. */
+    display: flex; /* 목록 항목을 플렉스 박스로 표시하여 내부 요소를 가로로 정렬. */
+    justify-content: space-between; /* 내부 요소 간의 공간을 최대화하여 요소 간에 균형 유지. */
+    align-items: center; /* 내부 요소를 수직으로 가운데 정렬. */
+}
